@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
 #hero {
   padding-top: 23px;
 }
@@ -29,7 +33,6 @@
 .menu_link {
   color: #222;
   font-size: 16px;
-  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   padding: 9px 24px;
 }
@@ -45,9 +48,77 @@
   color: #3E3F43;
   font-size: 16px;
   font-weight: bold;
-  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   margin-left: 24px;
   height: 20px;
   display: block;
+}
+
+#right-place {
+  width: 1152px;
+  margin: 135px auto 0;
+  display: flex;
+}
+
+#right-place-text h2 {
+  color: #3E3F43;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+#right-place-text h1 {
+  color: #313235;
+  font-size: 72px;
+
+}
+
+#right-place-text {
+  width: 55%;
+}
+
+#right-place-image {
+  width: 45%;
+}
+
+#right-place-image img {
+  height: 50%;
+  object-fit: cover;
+}
+
+.button-yellow {
+  font-size: 16px;
+  color: #fff;
+  background: #DAA520;
+  display: block;
+  width: 175px;
+  height: 50px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 3;
+}
+
+.button-yellow:hover {
+  background: #f0f0f0;
+  color: #DAA520;
+}
+
+#background-pink {
+  background: url('images/background-pink.svg');
+  width: 370px;
+  height: 810px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+#flower {
+  background: url('images/flower.svg');
+  width: 392px;
+  height: 392px;
+  position: absolute;
+  bottom: 200px;
+  z-index: -1;
 }
